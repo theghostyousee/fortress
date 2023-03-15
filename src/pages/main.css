@@ -137,7 +137,19 @@ body::before {
 @media screen and (max-width: 570px){
 
     .paragraph{
-        height: 7%;
+        height: 4%;
+    }
+    .paragraph p {
+        font-size: 0.9rem;
+    }
+        
+}
+
+
+@media screen and (max-width: 400px){
+
+    .paragraph{
+        height: 12%;
     }
     .paragraph p {
         font-size: 0.9rem;
