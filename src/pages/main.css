@@ -79,6 +79,7 @@ body::before {
 .title {
   height: 6%;
   width: 100%;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +118,7 @@ body::before {
 
 .btn button {
   height: 56px;
-  background: #e8d43e;
+  background: #BFED38;
   border-radius: 0px;
   width: 184px;
   font-style: normal;
