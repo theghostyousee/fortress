@@ -82,6 +82,7 @@ body::before {
   text-align: center;
   display: flex;
   justify-content: center;
+  font-size: 1.3rem;
   align-items: center;
   -webkit-animation: glow 2s ease-in-out infinite alternate;
   animation: glow 2s ease-in-out infinite alternate;
@@ -137,23 +138,12 @@ body::before {
 
 @media screen and (max-width: 570px){
 
-    .paragraph{
-        height: 4%;
+    .title{
+      height: 25%;
     }
-    .paragraph p {
+    .title p {
         font-size: 0.9rem;
     }
         
 }
 
-
-@media screen and (max-width: 400px){
-
-    .paragraph{
-        height: 12%;
-    }
-    .paragraph p {
-        font-size: 0.9rem;
-    }
-        
-}
