@@ -19,7 +19,6 @@ body {
   flex-direction: column;
 
   background-image: url("./media/pattern.svg");
-  background-color: rgb(0, 0, 0);
   background-repeat: repeat;
 
   position: relative;
@@ -33,7 +32,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(10, 1, 1, 0.7);
   z-index: 2; /* Set a lower z-index than the body element */
 }
 
@@ -75,7 +74,9 @@ body::before {
   color: #fffeff;
   z-index: 2;
 }
-
+.content image{
+  z-index: 0;
+}
 .title {
   height: 6%;
   width: 100%;
@@ -86,7 +87,7 @@ body::before {
   align-items: center;
   -webkit-animation: glow 2s ease-in-out infinite alternate;
   animation: glow 2s ease-in-out infinite alternate;
-  text-shadow: 0 0 4px #e8d33e;
+  text-shadow: 0 0 4px #dcdac8;
 }
 
 .paragraph {
@@ -96,7 +97,7 @@ body::before {
   justify-content: center;
   -webkit-animation: glow 2s ease-in-out infinite alternate;
   animation: glow 2s ease-in-out infinite alternate;
-  text-shadow: 0 0 4px #e8d33e;
+  text-shadow: 0 0 4px #dcdac8;
   align-items: center;
   text-align: center;
 }
@@ -108,7 +109,7 @@ body::before {
   justify-content: center;
   -webkit-animation: glow 2s ease-in-out infinite alternate;
   animation: glow 2s ease-in-out infinite alternate;
-  text-shadow: 0 0 4px #e8d33e;
+  text-shadow: 0 0 4px #e2e2db;
   align-items: center;
   text-align: center;
   position: relative;
@@ -119,7 +120,7 @@ body::before {
 
 .btn button {
   height: 56px;
-  background: #BFED38;
+  background: #cbcdc4;
   border-radius: 0px;
   width: 184px;
   font-style: normal;
@@ -127,7 +128,7 @@ body::before {
   border: none;
   -webkit-animation: glow 2s ease-in-out infinite alternate;
   animation: glow 2s ease-in-out infinite alternate;
-  text-shadow: 0 0 4px #e8d33e;
+  text-shadow: 0 0 4px #777770;
   cursor: pointer;
   color: #000000;
 
